@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   ubuntu-build:
+    - uses: actions/checkout@master
     runs-on: ubuntu-latest
     steps:
     - name: Build project
