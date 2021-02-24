@@ -1,4 +1,5 @@
 all: hello.o
+	mkdir build
 
 hello.exe: hello.cpp
 	 g++ -o build/hello.exe hello.cpp
